@@ -1,0 +1,51 @@
+.heroImg{
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(../image/heroimg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.head{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 10;
+}
+.logo i{
+    padding-top: 5px;
+    font-size: 45px;
+    color: purple;
+}
+.logo h2{
+    display: inline-block;
+    margin-left: 15px;
+}
+.search-bar{
+    position: relative;
+}
+.search-bar input{
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+.search-bar i{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: gray;
+}
+/* ================================================================================= */
+.foodCourt{
+    padding-top: 100px;
+    color: #fff;
+    text-align: center;
+}
+.food img{
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+}
+.food span{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
